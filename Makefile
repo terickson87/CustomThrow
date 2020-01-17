@@ -56,3 +56,6 @@ CPPFLAGS := -Wall -pedantic-errors -Weffc++ -Wextra -Wsign-conversion -Werror -s
 #
 # $(BINDIR)/testDate: $(BUILDDIR)/testDate.o $(BUILDDIR)/Date.o
 #  	g++ -o $@ $(GDBFLAG) $(CPPFLAGS) $^
+
+$(BUILDDIR)/CustomThrow.o: $(SRCDIR)/CustomThrow.cpp $(SRCDIR)/CustomThrow.h
+	g++ -c -o $@ $(GDBFLAG) $(CPPFLAGS) $<
