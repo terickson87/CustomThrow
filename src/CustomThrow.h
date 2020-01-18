@@ -14,6 +14,8 @@ private:
    std::string m_Message;
    std::string m_FileName;
    unsigned int m_FileLineNumber;
+   std::string m_FullMessage;
+   void buildFullMessage();
 
 public:
    CustomThrow(const std::string& message, const std::string& fileName, unsigned int fileLineNumber);
