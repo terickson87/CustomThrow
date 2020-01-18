@@ -7,7 +7,7 @@
 #include <string>
 #include <exception>
 
-#define CUSTOM_THROW(message) throw CustomException(message, __FILE__, __LINE__ )
+#define CUSTOM_THROW(message) throw CustomThrow(message, __FILE__, __LINE__ )
 
 class CustomThrow : public std::exception {
 private:
