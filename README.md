@@ -1,7 +1,8 @@
-# A Custom Exception code class
+# A Custom Exception Class
+https://github.com/terickson87
 
-With the Filename and line number shown
+Generates exceptions with the Filename and line number shown
 
 Made with the influence of:
--https://stackoverflow.com/a/348862
--Sam's Teach Yourself C++ listing Lesson 28 & 28.5
+- https://stackoverflow.com/a/348862
+- Sam's Teach Yourself C++ listing Lesson 28 & 28.5
